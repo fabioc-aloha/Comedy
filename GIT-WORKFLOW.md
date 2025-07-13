@@ -216,6 +216,43 @@ git log --oneline -10
 5. **Character Evolution**: Track persona development systematically
 6. **Backup Critical Material**: Tag important milestones
 
+## GitHub Integration Workflow
+
+### Daily Comedy Development
+```bash
+# After creating/refining material
+git comedy-save "✨ New joke: [description]"
+git push  # Share with the comedy community
+
+# After performance testing
+git comedy-save "📊 Performance results: [venue] - [feedback]"
+git push  # Document learning publicly
+```
+
+### Collaboration Features
+```bash
+# Pull latest updates (if collaborating)
+git pull origin master
+
+# Create feature branch for experimental material
+git checkout -b experiment/new-character-voice
+git push -u origin experiment/new-character-voice
+
+# Share work-in-progress
+git push origin [branch-name]
+```
+
+### GitHub-Specific Aliases
+```bash
+# Quick push after comedy-save
+git config --global alias.comedy-push "!git comedy-save \"$1\" && git push"
+
+# Usage: git comedy-push "✨ New joke: airline food reimagined"
+```
+
+## Best Practices for GitHub Comedy Development
+```
+
 ---
 
 *Git workflow optimized for systematic comedy development and cognitive architecture integration* 🎭✨
