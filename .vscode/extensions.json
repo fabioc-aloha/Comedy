@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "ms-vscode.vscode-speech",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+    "ms-toolsai.jupyter",
+    "humao.rest-client",
+    "ms-vscode.theme-tomorrowkit",
+    "formulahendry.auto-rename-tag",
+    "bierner.markdown-preview-github-styles",
+    "tootone.org-mode",
+    "ms-vscode.powershell",
+    "ms-vscode.wordcount",
+    "redhat.vscode-yaml",
+    "bradlc.vscode-tailwindcss",
+    "ms-python.python",
+    "ms-vscode.live-server",
+    "esbenp.prettier-vscode"
+  ]
+}

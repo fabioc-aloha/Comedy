@@ -1,0 +1,76 @@
+# Comedy Writing Cognitive Architecture - Git Ignore
+
+## OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## VS Code
+.vscode/settings.json.bak
+.vscode/launch.json
+.vscode/tasks.json
+*.code-workspace
+
+## Temporary Files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+## Performance Recordings (too large for git)
+recordings/
+audio-tests/
+*.wav
+*.mp3
+*.mp4
+
+## Personal Notes (keep private)
+personal-notes/
+private-material/
+sensitive-content/
+
+## Test Material (work in progress)
+test-runs/
+bombing-analysis/private/
+
+## Backup Files
+*.bak
+*.backup
+
+## Log Files
+*.log
+logs/
+
+## Cache
+cache/
+.cache/
+
+## Archives (optional - comment out if you want to track)
+# archives/failed-experiments/
+# archives/evolution-history/
+
+## Meta-learning Data (optional - comment out if you want to track)
+# meta-learning/cognitive-optimization/private/
+
+# Keep essential comedy files
+!*.md
+!*.joke
+!*.routine
+!*.character
+!*.timing
+!*.yaml
+!*.json
+
+## Exception: Keep VS Code essential config
+!.vscode/extensions.json
+!.vscode/keybindings.json
+
+## Exception: Keep templates and examples
+!templates/
+!comedy-projects/
+!.github/

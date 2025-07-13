@@ -1,0 +1,68 @@
+{
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  "editor.wordWrap": "on",
+  "editor.lineNumbers": "on",
+  "editor.rulers": [80, 120],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  
+  // Comedy Writing Specific
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  
+  // Timing and Performance
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "boundary",
+  
+  // Character Development
+  "search.useGlobalIgnoreFiles": false,
+  "search.useIgnoreFiles": false,
+  "search.smartCase": true,
+  
+  // Joke Structure
+  "markdown.preview.breaks": true,
+  "markdown.preview.typographer": true,
+  "markdown.extension.toc.orderedList": false,
+  
+  // Comedy Performance
+  "speech.recognition.language": "en-US",
+  "speech.synthesis.voice": "Microsoft David Desktop",
+  
+  // Humor Analysis
+  "jupyter.askForKernelRestart": false,
+  "jupyter.interactiveWindow.creationMode": "single",
+  
+  // Script Formatting
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  
+  // Character Consistency
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  
+  // Performance Timing
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  
+  // Comedy Collaboration
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  
+  // Humor Database
+  "files.associations": {
+    "*.joke": "markdown",
+    "*.bit": "markdown",
+    "*.routine": "markdown",
+    "*.character": "json",
+    "*.timing": "yaml"
+  }
+}

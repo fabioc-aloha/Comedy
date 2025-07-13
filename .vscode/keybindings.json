@@ -1,0 +1,27 @@
+[
+  {
+    "key": "ctrl+shift+j",
+    "command": "workbench.action.files.newUntitledFile",
+    "args": { "languageId": "markdown" }
+  },
+  {
+    "key": "ctrl+shift+p",
+    "command": "speech.start"
+  },
+  {
+    "key": "ctrl+shift+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.showCommands"
+  },
+  {
+    "key": "f5",
+    "command": "markdown.showPreview"
+  },
+  {
+    "key": "ctrl+shift+v",
+    "command": "markdown.showPreviewToSide"
+  }
+]
