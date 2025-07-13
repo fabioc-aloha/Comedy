@@ -153,6 +153,15 @@ Project-specific workflows for:
 - File associations for comedy file types
 - Cognitive shortcuts for quick creation
 
+### Git Workflow Integration
+- **Comedy-save alias**: Quick material commits with `git comedy-save "message"`
+- **Performance tracking**: Structured before/after show documentation
+- **Character evolution**: Systematic persona development tracking
+- **Learning extraction**: Pattern recognition and improvement commits
+- **Material versioning**: Track joke refinement and routine evolution
+
+See `GIT-WORKFLOW.md` for complete Git integration guide.
+
 ### Memory System
 - Auto-consolidation of successful patterns
 - Learning extraction from performance data
